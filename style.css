@@ -1,0 +1,180 @@
+
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
+
+
+
+html,body{
+  height:100%;
+  margin:0px;
+}
+
+div.body{
+  background-image:url("images/heart.jpg");
+  animation-iteration-count: infinite;;
+  background-size: cover;
+/*background-color:#FFC900;*/
+height:100%;
+}
+
+body{
+  background-color: #434ecf;
+  background-image: url("http://www.transparenttextures.com/patterns/flowers.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+div.heading{
+  background-image:url("images/heading1.png");
+  width:400px;
+  height:489px;
+  margin-left:440px;
+}
+
+#content{
+  background-color:white;
+  position:relative;
+  min-height:100%;
+  padding-bottom:13px;
+  margin-top:-80px;
+}
+
+#container{
+position:relative;
+width:1000px;
+margin:auto;
+overflow:hidden;
+/*margin-top:100px;*/
+margin-bottom:100px;
+}
+
+header{
+  width:100%;
+  height:100px;
+  color:cyan;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+div.headline{
+  font-size:60px;
+  color:white;
+  text-align:center;
+}
+
+div.about{
+  width: 520px;
+  margin-left: 396px;
+}
+
+div.name{
+  font-family: 'Patua One', cursive;
+  margin-left:24%;
+  margin-top:-77px;
+  font-size:60px;
+  color:#FFC900;
+}
+
+div.logo{
+  width: 80px;
+  height: 150px;
+  margin-top: -217px;
+  margin-left: 66px;
+}
+
+section{
+  margin-left:50px;
+}
+
+footer{
+  width:100%;
+  height:100px;
+  background-color:purple;
+  color:white;
+  margin:auto;
+  bottom:0px;
+  margin-top:-100px;
+}
+
+div.fontfooter{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding-top: 42px;
+}
+
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd) );
+	background:-moz-linear-gradient( center top, #c123de 5%, #a20dbd 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd');
+	background-color:#c123de;
+	-webkit-border-top-left-radius:37px;
+	-moz-border-radius-topleft:37px;
+	border-top-left-radius:37px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:37px;
+	-moz-border-radius-bottomright:37px;
+	border-bottom-right-radius:37px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #a511c0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+  margin-left:600px;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #9b14b3;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de) );
+	background:-moz-linear-gradient( center top, #a20dbd 5%, #c123de 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de');
+	background-color:#a20dbd;
+}.classname:active {
+	position:relative;
+	top:1px;
+
+body>#container{
+  background-color:#FFEECC;
+  height:auto;
+  min-height:100%;
+}
